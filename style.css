@@ -74,7 +74,7 @@ video{
 }
 .three{
     background-color: black;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     height: 2rem;
     width: 11rem;
@@ -83,7 +83,7 @@ video{
     margin-left: -8rem;
     justify-content: space-between;
     padding: 7px;
-    /* display: none; */
+    display: none;
     
 }.s{
     height: 1rem;
@@ -96,7 +96,7 @@ span{
        font-size: 14px;
 }
 .active{
-    display: block;
+    display: flex;
 }
 @media screen  and (max-width: 767px) {
     .main{
