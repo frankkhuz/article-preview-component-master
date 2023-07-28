@@ -83,7 +83,7 @@ video{
     margin-left: -8rem;
     justify-content: space-between;
     padding: 7px;
-    display: none;
+    /* display: none; */
     
 }.s{
     height: 1rem;
