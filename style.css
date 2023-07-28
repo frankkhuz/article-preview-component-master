@@ -28,6 +28,8 @@ video{
     justify-content: space-around;
     justify-content: space-between;
     padding: 2rem;
+    position: relative;
+    z-index: 1;
 }
 .drawers{
     height: 15rem;
@@ -69,4 +71,18 @@ video{
     font-weight: 900;
     font-size: 17px;
     margin-top: -1rem;
+}
+.three{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width: 11rem;
+    border-radius: 5px;
+    margin-top: 9rem;
+    margin-left: -8rem;
+    
+}.s{
+    height: 1rem;
+    width: 1rem;
 }
